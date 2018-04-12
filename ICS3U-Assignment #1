@@ -1,0 +1,26 @@
+int x=575;
+int w=575; 
+int y=545;
+int z=515;
+
+void setup() {
+  size (600, 600);
+  background(124, 118, 118);
+  fill(219, 219, 219);
+  
+  //title
+  textSize (32);
+  text ("Assignment #1", 190 , 30);
+  textSize( 20 );
+  text("By Adnan Bakouban", 213, 60);
+  
+  //squares
+  rect(400, 450, 200, 140);
+  textSize(16);
+  fill(255, 0, 0);
+  text ("Intro", 500, 515, 140, 130);
+  fill (255, 0, 0);
+  text ("Math Game", 450, 545, 140, 130);
+  fill (255, 0, 0);
+  text ("Other Game", 445, 575, 190, 130);
+}
